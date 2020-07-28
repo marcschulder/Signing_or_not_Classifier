@@ -4,3 +4,13 @@ __pycache__/
 
 .DS_Store
 *.pyc
+
+# Ignore large models
+models/optimized_openpose.pb
+
+# Ignore temp data
+Input/orig_frames/
+
+# Ignore input and output data
+videos/
+outputs/
